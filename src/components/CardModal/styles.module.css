@@ -1,0 +1,62 @@
+.card_modal {
+    gap: 7px;
+    width: 60%;
+    height: 80%;
+    padding: 20px;
+    display: flex;
+    overflow-y: scroll;
+    border-radius: 5px;
+    flex-direction: column;
+    background-color: rgb(46, 45, 45);
+}
+
+.container_info {
+    display: flex;
+    width: 100%;
+}
+
+.movie_info {
+    padding: 20px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+}
+
+.movie_info h2 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.vote {
+    display: flex;
+    gap: 3px;
+}
+
+.movie_poster {
+    width: 200px;
+    border-radius: 30px;
+}
+
+.close_modal {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(17, 63, 17);
+}
+
+::-webkit-scrollbar {
+    background: #000;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(17, 63, 17);
+    border-radius: 10px;
+}

@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    min-width: 390px;
+}
+
+@media (min-width:390px) {
+    .container {
+        min-width: 390px;
+    }
+}
